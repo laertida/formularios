@@ -70,6 +70,3 @@ Para depurar, abre las herramientas de desarrollador (F12) y revisa la consola.
 
 Si quieres mejorar el proyecto, abre un fork y envía un pull request. Los aportes para mejorar ejemplos, validaciones o documentación son bienvenidos.
 
-## Licencia
-
-Añade una licencia si lo deseas. Si no se especifica, el repositorio no tiene licencia explícita por defecto.
