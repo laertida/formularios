@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Clase: Alta de Producto (Estilo Editorial)</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <form
+      action="https://echo.free.beeceptor.com"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <h1>Alta de Producto</h1>
+      <p class="intro">
+        Ingrese los datos técnicos para el registro del SKU en sistema.
+      </p>
+
+      <label for="nombre">Nombre del Producto</label>
+      <input
+        type="text"
+        id="nombre"
+        name="nombre_producto"
+        placeholder="Ej. Zapatillas Running X1"
+        required
+      />
+
+      <label for="sku">ID de SKU</label>
+      <input type="number" id="sku" name="sku_id" min="1000" />
+
+      <!-- 3. EMAIL -->
+      <label for="correo">Email del Solicitante</label>
+      <input type="email" id="correo" name="email_contacto" />
+
+      <!-- 4. FECHA -->
+      <label for="fecha">Fecha de Lanzamiento</label>
+      <input type="datetime-local" id="fecha" name="fecha_lanzamiento" />
+
+      <!-- BOTÓN -->
+      <button type="submit">Registrar Producto</button>
+    </form>
+  </body>
+</html>
